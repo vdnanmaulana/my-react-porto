@@ -10,7 +10,7 @@ const Navbar = () => {
               <a href="">Home</a>
             </li>
             <li className="hover:text-blue-400 transition duration-200">
-              <a href="/about">About</a>
+              <a href="">About</a>
             </li>
             <li className="hover:text-blue-400 transition duration-200">
               <a href="">Works</a>

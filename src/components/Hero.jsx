@@ -15,28 +15,27 @@ const Hero = () => {
           </h1>
           <p className="mt-4 text-white w-full md:w-1/2 leading-8 text-center md:text-start">
             Hello. I’m a Junior Web Developer. I currently learning web
-            development like Laravel, CodeIgniter, and a solid understanding of
-            React.
+            development like Laravel, CodeIgniter, and React.
           </p>
           <div className="mt-4 social">
             <ul className="flex gap-4 justify-center md:justify-normal">
               <li>
-                <a href="">
+                <a href="https://twitter.com/adnanmaulana__" target="_blank">
                   <i class="bx bxl-twitter text-3xl"></i>
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://instagram.com/pixelmind__" target="_blank">
                   <i class="bx bxl-instagram text-3xl"></i>
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://github.com/vdnanmaulana" target="_blank">
                   <i class="bx bxl-github text-3xl"></i>
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://dribbble.com/adnanmaulana" target="_blank">
                   <i class="bx bxl-dribbble text-3xl"></i>
                 </a>
               </li>
