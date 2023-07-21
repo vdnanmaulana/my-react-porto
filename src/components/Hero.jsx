@@ -1,6 +1,5 @@
 import React from "react";
 import ProfileImage from "../images/nan.jpg";
-
 const Hero = () => {
   return (
     <>

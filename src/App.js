@@ -1,20 +1,20 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Gallery from "./components/Gallery";
-import Content from "./components/Content";
 import "boxicons/css/boxicons.min.css";
-import Footer from "./components/Footer";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import NotFound from "./pages/NotFound";
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Gallery />
-      <Content />
-      <Footer />
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="*" element={<NotFound />}></Route>
+        </Routes>
+      </Router>
+    </>
   );
 }
 
